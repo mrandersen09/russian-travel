@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: < 1%,last 4 versions
+*/
+
 .header__lang-link {
   font-family: "Inter-Regular";
   font-style: normal;
@@ -9,8 +16,15 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   color: #fff;
-  border: 1px solid red;
   margin: 0;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  transition-timing-function: ease;
 }
 
 .header__lang-link:last-of-type {
@@ -18,7 +32,7 @@
 }
 
 .header__lang-link:hover {
-  opacity: 50%;
+  opacity: 0.8;
   text-decoration: underline;
 }
 

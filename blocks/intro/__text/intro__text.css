@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: < 1%,last 4 versions
+*/
+
 .intro__text {
   font-family: "Inter-Regular";
   -webkit-font-smoothing: antialiased;
@@ -8,7 +15,6 @@
   width: 64%;
   padding: 0;
   margin: 0;
-  border: 1px solid red;
   padding-bottom: 33px;
   font-size: 16px;
   line-height: 1.63;

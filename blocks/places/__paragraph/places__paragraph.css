@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: < 1%,last 4 versions
+*/
+
 .places__paragraph {
   width: 100%;
   font-family: "Inter-Regular";
@@ -12,11 +19,17 @@
   line-height: 1.63;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+
   text-align: start;
-  max-width: 484px;
+  vertical-align: text-top;
   padding-bottom: 26px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.places__paragraph:last-of-type {
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {

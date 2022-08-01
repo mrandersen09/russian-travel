@@ -1,3 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: < 1%,last 4 versions
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: < 1%,last 4 versions
+*/
+
 .page {
   padding-top: 28px;
   padding-left: 48px;
@@ -6,11 +20,12 @@
   min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Inter", "Arial", "sans-serif";
   background-color: #2a2c2f;
   color: #fff;
-  border: 1px solid red;
 }
 
 @media all and (max-width: 1024px) {
