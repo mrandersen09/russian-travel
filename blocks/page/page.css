@@ -1,0 +1,40 @@
+.page {
+  padding-top: 28px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 24px;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Inter", "Arial", "sans-serif";
+  background-color: #2a2c2f;
+  color: #fff;
+  border: 1px solid red;
+}
+
+@media all and (max-width: 1024px) {
+  .page {
+    padding-top: 28px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .page {
+    padding-top: 28px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .page {
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+  }
+}

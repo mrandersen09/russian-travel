@@ -1,0 +1,27 @@
+.intro__text {
+  font-family: "Inter-Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  width: 64%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid red;
+  padding-bottom: 33px;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    width: 100%;
+  }
+}

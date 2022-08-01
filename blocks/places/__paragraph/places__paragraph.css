@@ -1,0 +1,27 @@
+.places__paragraph {
+  width: 100%;
+  font-family: "Inter-Regular";
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  grid-area: text;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+  text-align: start;
+  max-width: 484px;
+  padding-bottom: 26px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}

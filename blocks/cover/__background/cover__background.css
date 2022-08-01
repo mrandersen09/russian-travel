@@ -1,0 +1,9 @@
+.cover__background {
+  background-repeat: no-repeat;
+  width: 100%;
+  max-height: 740px;
+  background-size: cover;
+  object-fit: contain;
+  background-image: url(../../../images/__WIN/cover-trains.jpg);
+  box-sizing: border-box;
+}

@@ -1,0 +1,33 @@
+.lead {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid red;
+  padding-top: 56px;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 1024px) {
+  .lead {
+    padding-top: 48px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .lead {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

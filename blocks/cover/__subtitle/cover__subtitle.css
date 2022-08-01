@@ -1,0 +1,23 @@
+.cover__subtitle {
+  font-family: "Inter-Regular";
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}

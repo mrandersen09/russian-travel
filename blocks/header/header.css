@@ -1,0 +1,27 @@
+.header {
+  min-height: 52px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 768px) {
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .header {
+    min-height: 42px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

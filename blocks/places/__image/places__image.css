@@ -1,0 +1,10 @@
+.places__image {
+  grid-area: image;
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+  padding-bottom: 0;
+  padding-left: 0;
+  object-fit: contain;
+  box-sizing: border-box;
+}

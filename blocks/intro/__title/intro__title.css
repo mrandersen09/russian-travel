@@ -1,0 +1,23 @@
+.intro__title {
+  font-family: "Inter-Black";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-weight: 900;
+  font-size: 54px;
+  font-line: 58px;
+  border: 1px solid red;
+  padding-bottom: 40px;
+  margin: 0;
+  text-justify: auto;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

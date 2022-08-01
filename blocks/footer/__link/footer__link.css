@@ -1,0 +1,21 @@
+.footer__link {
+  font-size: 16px;
+  line-height: 1.125;
+  text-decoration: none;
+  border: 1px solid red;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.footer__link:hover {
+  opacity: 70%;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+    display: grid;
+    grid-area: link;
+  }
+}
