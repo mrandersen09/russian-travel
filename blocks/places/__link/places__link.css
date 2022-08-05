@@ -15,8 +15,7 @@
   -moz-text-size-adjust: 100%;
   font-size: 18px;
   line-height: 1.22;
-
-  text-decoration: none;
+  text-decoration: underline;
   color: #ffffff;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -33,5 +32,16 @@
 
 .places__link:hover {
   opacity: 0.8;
-  text-decoration: underline;
+}
+
+@media screen and (max-width: 790px) {
+  .places__link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .places__link {
+    font-size: 10px;
+  }
 }

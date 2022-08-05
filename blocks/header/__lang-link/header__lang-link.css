@@ -17,6 +17,8 @@
   -moz-text-size-adjust: 100%;
   color: #fff;
   margin: 0;
+  padding-left: 0;
+  list-style-type: none;
   -webkit-transition-duration: 1s;
   -o-transition-duration: 1s;
   -moz-transition-duration: 1s;
@@ -25,20 +27,16 @@
   -o-transition-timing-function: ease;
   -moz-transition-timing-function: ease;
   transition-timing-function: ease;
+  text-decoration: none;
 }
 
 .header__lang-link:last-of-type {
   margin-left: 18px;
 }
 
-.header__lang-link:hover {
-  opacity: 0.8;
-  text-decoration: underline;
-}
-
 @media all and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 1.11;
   }
 }

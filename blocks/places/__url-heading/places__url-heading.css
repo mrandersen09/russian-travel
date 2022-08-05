@@ -16,12 +16,11 @@
   font-size: 12px;
   line-height: 1;
   letter-spacing: 2px;
-
+  text-transform: uppercase;
   color: #aaaaaa;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
   padding-bottom: 12px;
 }

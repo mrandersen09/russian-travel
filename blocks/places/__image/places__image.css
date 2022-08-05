@@ -9,7 +9,7 @@
   grid-area: image;
   width: 100%;
   height: auto;
-
+  margin: 0;
   padding-bottom: 0;
   padding-left: 0;
   -o-object-fit: contain;

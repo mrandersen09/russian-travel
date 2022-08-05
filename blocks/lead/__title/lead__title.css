@@ -6,8 +6,9 @@
 */
 
 .lead__title {
-  font-family: "Inter-Black";
+  font-family: "Inter";
   font-style: normal;
+  font-weight: 900;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -22,6 +23,13 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+@media all and (max-width: 689px) {
+  .lead__title {
+    font-size: 72px;
+    line-height: 1.05;
+  }
 }
 
 @media all and (max-width: 679px) {

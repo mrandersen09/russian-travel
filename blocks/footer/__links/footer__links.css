@@ -6,6 +6,8 @@
 */
 
 .footer__links {
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -31,10 +33,8 @@
 @media screen and (max-width: 460px) {
   .footer__links {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -moz-box-orient: vertical;
-    -moz-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: start;
@@ -46,5 +46,11 @@
     -moz-column-gap: 0;
     column-gap: 0;
     row-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    row-gap: 30px;
   }
 }

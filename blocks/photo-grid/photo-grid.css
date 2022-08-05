@@ -18,7 +18,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding-bottom: 50px;
+  padding-bottom: 95px;
 }
 .photo-grid > *:nth-child(1) {
   -ms-grid-row: 1;
@@ -71,13 +71,14 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    display: -ms-grid;
-    display: grid;
     -ms-grid-columns: 1fr 16px 1fr 16px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: 1fr 16px 1fr 16px 1fr 16px 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 16px;
+    gap: 14px;
+    padding-bottom: 90px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
   .photo-grid > *:nth-child(1) {
     -ms-grid-row: 1;
@@ -137,9 +138,10 @@
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 16px;
     padding-left: 24px;
     padding-right: 24px;
+    gap: 16px;
+    padding-bottom: 0;
   }
   .photo-grid > *:nth-child(1) {
     -ms-grid-row: 1;
@@ -200,7 +202,7 @@
     -ms-grid-rows: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr
       16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 16px;
+    gap: 12px;
     padding-left: 16px;
     padding-right: 16px;
   }

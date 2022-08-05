@@ -6,8 +6,9 @@
 */
 
 .cover__title {
-  font-family: "Inter-Black";
+  font-family: "Inter";
   font-style: normal;
+  font-weight: 900;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -22,6 +23,15 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 560px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 550px) {
+  .cover__title {
+    width: 320px;
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 320px) {

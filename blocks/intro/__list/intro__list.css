@@ -6,7 +6,6 @@
 */
 
 .intro__list {
-  font-family: "Inter-Bold";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -27,4 +26,6 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-left: 0;
+  list-style-type: none;
 }

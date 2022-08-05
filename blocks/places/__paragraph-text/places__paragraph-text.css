@@ -1,0 +1,20 @@
+.places__paragraph-text {
+  font-family: "Inter";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 26px;
+  box-sizing: border-box;
+}
+
+.places__paragraph-text:last-of-type {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .places__paragraph-text {
+    font-size: 16px;
+  }
+}

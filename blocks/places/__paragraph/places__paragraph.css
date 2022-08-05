@@ -7,34 +7,7 @@
 
 .places__paragraph {
   width: 100%;
-  font-family: "Inter";
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  grid-area: text;
-  font-size: 18px;
-  line-height: 1.63;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-
-  text-align: start;
-  vertical-align: text-top;
-  padding-bottom: 26px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.places__paragraph:last-of-type {
-  padding-bottom: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .places__paragraph {
-    font-size: 16px;
-    line-height: 1.63;
-  }
 }
