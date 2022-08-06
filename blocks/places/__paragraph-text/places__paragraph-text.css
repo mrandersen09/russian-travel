@@ -1,8 +1,8 @@
 .places__paragraph-text {
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 18px;
-  line-height: 1.63;
+  line-height: 163%;
   margin: 0;
   padding: 0;
   padding-bottom: 26px;
@@ -15,6 +15,14 @@
 
 @media screen and (max-width: 768px) {
   .places__paragraph-text {
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 187%;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__paragraph-text {
+    line-height: 188%;
   }
 }

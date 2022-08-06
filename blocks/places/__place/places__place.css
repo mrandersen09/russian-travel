@@ -27,8 +27,6 @@
   -moz-column-gap: 40px;
   column-gap: 40px;
   row-gap: 48px;
-  font-size: 72px;
-  line-height: 1.06;
   margin: 0;
   padding-top: 0;
   padding-bottom: 78.82px;
@@ -65,15 +63,9 @@
     -webkit-column-gap: 28px;
     -moz-column-gap: 28px;
     column-gap: 28px;
-    padding-bottom: 70px;
   }
 
-  .places__place:last-of-type {
-    margin-top: -45px;
-  }
-}
-
-@media screen and (max-width: 561px) {
+@media screen and (max-width: 533px) {
   .places__place {
     -ms-grid-columns: 100%;
     grid-template-columns: 100%;
@@ -91,5 +83,6 @@
 @media screen and (max-width: 320px) {
   .places__place {
     margin-top: 0;
+    row-gap: 0;
   }
 }

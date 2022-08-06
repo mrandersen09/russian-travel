@@ -6,7 +6,7 @@
 */
 
 .lead__subtitle {
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,29 +32,16 @@
 @media all and (max-width: 787px) {
   .lead__subtitle {
     width: 83.33vw;
-    padding-top: 20px;
-    padding-bottom: 35px;
+    padding-top: 30px;
+    padding-bottom: 57px;
   }
 }
 
-@media all and (max-width: 594px) {
-  .lead__subtitle {
-    font-size: 24px;
-    line-height: 1.22;
-  }
-}
-
-@media all and (max-width: 488px) {
-  .lead__subtitle {
-    width: 90vw;
-    font-size: 18px;
-    line-height: 1.24;
-  }
-}
-
-@media all and (max-width: 329px) {
+@media all and (max-width: 320px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;
+    padding-top: 20px;
+    padding-bottom: 38px;
   }
 }

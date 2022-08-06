@@ -37,17 +37,18 @@
 
 @media screen and (max-width: 768px) {
   .places {
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 85px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 89px;
+    padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 60px;
-    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 62px;
+    padding-bottom: 65px;
   }
 }

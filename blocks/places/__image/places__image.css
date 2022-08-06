@@ -18,3 +18,11 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 320px) {
+  .places__image {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 35px;
+  }
+}

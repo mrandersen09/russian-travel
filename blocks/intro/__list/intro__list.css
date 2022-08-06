@@ -6,6 +6,11 @@
 */
 
 .intro__list {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -25,7 +30,6 @@
   flex-direction: column;
   list-style-type: none;
   margin: 0;
-  padding: 0;
   padding-left: 0;
   list-style-type: none;
 }

@@ -5,7 +5,7 @@
 * Browsers: < 1%,last 4 versions
 */
 .cover__subtitle {
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,12 +27,14 @@
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
     width: 50%;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    width: 75%;
+    font-size: 20px;
+    width: 60%;
   }
 }
 

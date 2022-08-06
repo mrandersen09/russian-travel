@@ -24,6 +24,7 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__place/places__place.css);
 @import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__title/_wrap/places__title_wrap.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__website/places__website.css);
 @import url(../blocks/places/__url-heading/places__url-heading.css);
@@ -38,3 +39,7 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+* {
+  outline: 1px solid red;
+}

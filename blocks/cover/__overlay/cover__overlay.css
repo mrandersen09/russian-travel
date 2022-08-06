@@ -1,19 +1,14 @@
 /*
-
 * Prefixed by https://autoprefixer.github.io
-
 * PostCSS: v8.4.14,
-
 * Autoprefixer: v10.4.7
-
 * Browsers: < 1%,last 4 versions
-
 */
 
 .cover__overlay {
   width: 100%;
-  min-height: 740px;
-  background-color: rgba(42, 44, 47, 0.3);
+  height: fit-content;
+  background-size: cover;
   z-index: 1;
   display: -webkit-box;
   display: -webkit-flex;
@@ -45,38 +40,6 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  transition-duration: 1s;
-  -webkit-transition-timing-function: ease;
-  -o-transition-timing-function: ease;
-  -moz-transition-timing-function: ease;
-  transition-timing-function: ease;
   padding: 0;
   margin: 0;
-}
-
-.cover__overlay:hover {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(42, 44, 47, 0.8);
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__overlay {
-    min-height: 540px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__overlay {
-    min-height: 380px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__overlay {
-    min-height: 80px;
-  }
 }

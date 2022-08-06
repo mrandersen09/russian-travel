@@ -29,7 +29,6 @@
   -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  gap: 32px;
   width: 100%;
   min-height: 740px;
   margin: 0 auto;
@@ -43,29 +42,41 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  -o-object-fit: cover;
-  object-fit: cover;
   background-image: url(../../../images/__WIN/cover-trains.jpg);
-  border: 1px solid red;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(42, 44, 47, 0.3);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  transition-timing-function: ease;
+  text-decoration: none;
+  object-fit: contain;
+  object-position: center;
+}
+
+.cover:hover {
+  background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    min-height: 540px;
-    padding-bottom: 90px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    min-height: 380px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    min-height: 80px;
-    padding-bottom: 30px;
+    min-height: 200px;
   }
 }

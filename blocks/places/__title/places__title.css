@@ -6,7 +6,8 @@
 */
 
 .places__title {
-  font-family: "Inter";
+  white-space: nowrap;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 900;
   -webkit-font-smoothing: antialiased;
@@ -41,7 +42,7 @@
 
 @media screen and (max-width: 768px) {
   .places__title {
-    font-size: 42px;
+    font-size: 40px;
     line-height: 1.09;
   }
 }
@@ -49,5 +50,8 @@
 @media screen and (max-width: 320px) {
   .places__title {
     font-size: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
   }
 }

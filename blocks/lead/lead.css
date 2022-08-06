@@ -24,7 +24,7 @@
   padding-top: 56px;
   padding-left: 100px;
   padding-right: 100px;
-  padding-bottom: 95px;
+  padding-bottom: 88px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -42,12 +42,12 @@
   .lead {
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 90px;
+    padding-bottom: 86px;
   }
 }
 
 @media all and (max-width: 320px) {
   .lead {
-    padding-bottom: 65px;
+    padding-bottom: 60px;
   }
 }

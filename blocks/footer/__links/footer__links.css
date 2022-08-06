@@ -51,6 +51,6 @@
 
 @media screen and (max-width: 320px) {
   .footer__links {
-    row-gap: 30px;
+    row-gap: 32px;
   }
 }
