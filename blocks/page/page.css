@@ -16,14 +16,13 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Inter", "Arial", "sans-serif";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   background-color: #2a2c2f;
   color: #fff;
 }
 
 @media all and (max-width: 1024px) {
   .page {
-    padding-top: 28px;
     padding-left: 0;
     padding-right: 0;
   }

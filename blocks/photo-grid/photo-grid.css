@@ -132,15 +132,13 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    display: -ms-grid;
-    display: grid;
     -ms-grid-columns: 1fr 16px 1fr;
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     padding-left: 24px;
     padding-right: 24px;
-    gap: 16px;
+    gap: 18px;
     padding-bottom: 0;
   }
   .photo-grid > *:nth-child(1) {
@@ -195,8 +193,6 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    display: -ms-grid;
-    display: grid;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr

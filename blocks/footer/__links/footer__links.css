@@ -7,7 +7,6 @@
 
 .footer__links {
   margin: 0;
-  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -30,7 +29,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 617px) {
   .footer__links {
     -webkit-box-orient: vertical;
     -webkit-flex-direction: column;

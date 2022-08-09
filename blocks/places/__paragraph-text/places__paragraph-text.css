@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: < 1%,last 4 versions
+*/
+
 .places__paragraph-text {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -6,6 +13,8 @@
   margin: 0;
   padding: 0;
   padding-bottom: 26px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -16,13 +25,14 @@
 @media screen and (max-width: 768px) {
   .places__paragraph-text {
     font-size: 15px;
-    line-height: 187%;
-    padding-bottom: 30px;
+    line-height: 184.5%;
+    padding-bottom: 28px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places__paragraph-text {
-    line-height: 188%;
+    line-height: 165%;
+    font-size: 16px;
   }
 }

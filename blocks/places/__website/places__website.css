@@ -29,10 +29,20 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+  .places__website {
+    padding-bottom: 2px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .places__website {
+    padding-bottom: 30px;
     padding-left: 16px;
     padding-right: 16px;
     -webkit-box-ordinal-group: 2;
@@ -40,6 +50,5 @@
     -moz-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
-    padding-bottom: 30px;
   }
 }

@@ -4,6 +4,7 @@
 * Autoprefixer: v10.4.7
 * Browsers: < 1%,last 4 versions
 */
+
 .cover__subtitle {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -26,8 +27,7 @@
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    width: 50%;
-    font-size: 16px;
+    width: 45%;
   }
 }
 
