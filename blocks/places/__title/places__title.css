@@ -9,11 +9,6 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 900;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   display: -webkit-box;
   display: -webkit-flex;
@@ -48,6 +43,7 @@
     font-size: 42px;
     line-height: 1.1;
     word-wrap: normal;
+    padding-right: 10px;
   }
 }
 
