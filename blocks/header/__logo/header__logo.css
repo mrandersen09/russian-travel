@@ -6,7 +6,7 @@
 */
 
 .header__logo {
-  background-image: url(../../../images/__WIN/header-logo.svg);
+  background-image: url("../../../images/__WIN/header-logo.svg");
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
